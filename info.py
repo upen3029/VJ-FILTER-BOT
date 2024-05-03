@@ -17,7 +17,7 @@ def is_enabled(value, default):
         return default
 
 # Bot information
-SESSION = environ.get('SESSION', 'TechVJBot')
+SESSION = environ.get('SESSION', 'bongo_verse_v3_bot')
 API_ID = int(environ.get('API_ID', '28180253'))
 API_HASH = environ.get('API_HASH', '71f2012580bcad7524846cf267274f2a')
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
@@ -51,7 +51,7 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://ytpremium422024:uWSQVhe3NSTRVWt5@anno3029.5aegjww.mongodb.net/?retryWrites=true&w=majority&appName=anno3029")
-DATABASE_NAME = environ.get('DATABASE_NAME', "techvjbot")
+DATABASE_NAME = environ.get('DATABASE_NAME', "anno3029")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'techvjcollection')
 
 # Premium And Referal Settings
@@ -92,7 +92,7 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 # Shortlink Info
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'modijiurl.com')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'modijiurl.com/api')
 SHORTLINK_API = environ.get('SHORTLINK_API', '30574365d7ba12ab566d0bcef4fa8f64760ec730')
 
 # Others
