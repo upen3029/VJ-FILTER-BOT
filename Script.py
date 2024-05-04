@@ -208,7 +208,9 @@ Nᴀᴍᴇ - {}"""
 
     CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
 
-<b> Size ⚙️: {file_size}</b>""" 
+<b> Size ⚙️: {file_size}</b>
+
+JOIN : @BONGO_VERSE""" 
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
