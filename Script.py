@@ -206,10 +206,7 @@ Nᴀᴍᴇ - {}"""
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
-
-<b> Size ⚙️: {file_size}</b>
-
+    CAPTION = """
 JOIN : @BONGO_VERSE""" 
 
     IMDB_TEMPLATE_TXT = """
