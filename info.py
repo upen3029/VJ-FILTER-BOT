@@ -18,8 +18,8 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'bongo_verse_v3_bot')
-API_ID = int(environ.get('API_ID', '28180253'))
-API_HASH = environ.get('API_HASH', '71f2012580bcad7524846cf267274f2a')
+API_ID = int(environ.get('API_ID', ''))
+API_HASH = environ.get('API_HASH', '')
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 # Bot settings
